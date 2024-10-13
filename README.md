@@ -14,3 +14,7 @@ interview-program
 6. Create Singleton class with Thread safe.
 
 7. Create custom Stack implementation in java.
+
+8. Create custom generic stack implementation in java.
+
+9. 
