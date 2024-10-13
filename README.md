@@ -19,4 +19,4 @@ interview-program
 
 9. Create a custom compose file, first check health of previous container then run second images.
 
-10. 
+10. Given a list of integers ,use streams to find the sum of all even numbers which is greater than 10.
