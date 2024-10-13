@@ -17,4 +17,6 @@ interview-program
 
 8. Create custom generic stack implementation in java.
 
-9. 
+9. Create a custom compose file, first check health of previous container then run second images.
+
+10. 

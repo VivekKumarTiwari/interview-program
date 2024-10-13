@@ -1,0 +1,31 @@
+version: '3'
+services:
+  serviceRegistry:
+    image: "name"
+    container_name: service_registry
+    ports:
+      - '8761:8761'
+  configServer:
+    image: antrea/theia-zookeeper
+    container_name: config_server
+    ports:
+      - '9092:9092'
+    environment:
+      - EUREKA_SERVER=http://localhost:8761/eureka
+    healthcheck:
+      test: CMD["CURL","url","-f","http://configServer:9092/health/actuator"]
+      interval: 2s
+      timeout: 10s
+      retries: 5
+  productName:
+    image: meghanam2525/productname
+    container_name: product_name
+    ports:
+      - '8070:8070'
+    environment:
+      - EUREKA_SEREVR=http://localhost:8761/eureka
+      - CONFIG_SERVER=http://configServer:9092/
+    depends_on:
+        configServer:
+          condition: service_healthy
+
