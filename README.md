@@ -11,4 +11,6 @@ interview-program
 
 5. Find all the employees with Salary Greater than a given ammount using filter.
 
-6.
+6. Create Singleton class with Thread safe.
+
+7. Create custom Stack implementation in java.
