@@ -1,0 +1,51 @@
+version: '3'
+services:
+     zookeeper:
+         image: bitnami/zookeeper
+         container_name: zookeeper
+         ports:
+          - '2181:2181'
+         environment:
+            ALLOW_ANONYMOUS_LOGIN: yes
+         networks:
+            - kafka-network         
+     kafka:
+         image: bitnami/kafka
+         container_name: kafka
+         ports:
+            - '9092:9092'
+         depends_on:
+            - zookeeper         
+         environment:
+              KAFKA_BROKER_ID: 1
+              KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181  
+              KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+              KAFKA_PLAINTEXT_LISTENER: PLAINTEXT://localhost:9092
+         networks:
+             - kafka-network     
+     ui_kafdrop:       
+         image: obsidiandynamics/kafdrop
+         container_name: ui_kafdrop 
+         ports:
+           - '9090:9000'   
+         environment:
+              KAFKA_BROKERCONNECT: kafka:9092
+         depends_on:
+              - kafka
+         networks:
+              - kafka-network   
+     ui_kafbat:
+         image: ghcr.io/kafbat/kafka-ui
+         container_name: ui_kafbat
+         ports:
+          - '8080:8080'
+         environment:
+            KAFKA_CLUSTERS_0_NAME: kafka
+            KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+         depends_on:
+            - kafka
+         networks:
+            - kafka-network                      
+networks:
+    kafka-network:
+       driver: bridge    
