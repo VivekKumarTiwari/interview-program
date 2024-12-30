@@ -23,3 +23,5 @@ interview-program
 11. Add natural numbers using Java 8 Features.
 12. IntStream API informaation explain with code.
 13. Kafka Setup using docker-compose file.
+14. Sorting a List of Strings Array data using JAVA 8 Stream API.
+15. Finding the First Non-Repeated Character in a String Using Java 8 Stream API.
