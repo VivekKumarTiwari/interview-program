@@ -1,0 +1,39 @@
+version: '3'
+services:
+    mysql: 
+      image: bitnami/mysql
+      container_name: mysql
+      ports:
+       - '3309:3306'
+      environment:
+         #ALLOW_EMPTY_PASSWORD: yes  
+          MYSQL_ROOT_USER: admin
+          MYSQL_ROOT_PASSWORD: admin
+          MYSQL_DATABASE: mysql_testdb
+      networks: 
+        - db_setup
+    postgres:
+        image: postgres
+        container_name: postgres
+        ports:
+           - '5444:5432'
+        environment:
+             POSTGRES_USER: admin
+             POSTGRES_PASSWORD: admin
+             POSTGRES_DB: postgres_testdb
+        networks:
+          - db_setup
+    pgadmin:
+        image: dpage/pgadmin4
+        container_name: pgadmin
+        ports:
+         - '7090:80'
+        environment:
+           PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+           PGADMIN_DEFAULT_PASSWORD: admin       
+        networks:
+          - db_setup        
+        
+networks:
+    db_setup:
+      driver: bridge    
