@@ -1,0 +1,14 @@
+#spring.application.name=sb-secruity
+
+spring:
+   application:
+     name: sb-secruity
+   security:
+     user:
+       password: root
+       name: root
+server:
+  port: 9080
+
+
+

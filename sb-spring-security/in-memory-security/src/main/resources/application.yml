@@ -1,0 +1,8 @@
+#spring.application.name=in-memory-security
+
+spring:
+  application:
+    name: in-memory-security
+
+server:
+  port: 7070
