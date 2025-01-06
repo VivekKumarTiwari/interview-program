@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: sb-security-with-db
+  datasource:
+    url: jdbc:postgresql://localhost:5444/postgres_testdb
+    password: admin
+    username: admin
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 6060
