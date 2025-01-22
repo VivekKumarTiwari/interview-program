@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-jpa-with-security
+  datasource:
+    url: jdbc:postgresql://localhost:5444/jpa_db
+    password: root
+    username: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create
+server:
+  port: 7070
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG

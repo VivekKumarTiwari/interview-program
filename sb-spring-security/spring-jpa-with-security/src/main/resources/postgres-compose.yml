@@ -1,0 +1,26 @@
+version: '3'
+services:
+    postgres:
+      image: postgres
+      container_name: postgres
+      ports:
+        - '5444:5432'
+      environment:
+        POSTGRES_USER: admin
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: jpa_db
+      networks:
+        - sb_jpa
+    pgadmin:
+      image: dpage/pgadmin4
+      container_name: pgadmin
+      ports:
+        - '8090:80'
+      environment:
+        PGADMIN_DEFAULT_EMAIL: jpaadmin@gmail.com
+        PGADMIN_DEFAULT_PASSWORD: admin
+      networks:
+        - sb_jpa
+networks:
+  sb_jpa:
+    driver: bridge
