@@ -3,10 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/java-program/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-program/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/producer-msg-without-docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb-producer-without-docker-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/in-memory-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/sb-secruity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/sb-security-with-db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/sb-user-login/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/spring-jpa-with-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-kafka-simple-msg-producer/src/main/java" charset="UTF-8" />
   </component>
 </project>

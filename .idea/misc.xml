@@ -10,10 +10,13 @@
         <option value="$PROJECT_DIR$/sb-spring-security/sb-user-login/pom.xml" />
         <option value="$PROJECT_DIR$/sb-spring-security/spring-jpa-with-security/pom.xml" />
         <option value="$PROJECT_DIR$/java-program/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka-simple-msg-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/producer-msg-without-docker/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-producer-without-docker-kafka/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
