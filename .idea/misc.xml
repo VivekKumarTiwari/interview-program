@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/sb-spring-security/in-memory-security/pom.xml" />
         <option value="$PROJECT_DIR$/sb-spring-security/sb-secruity/pom.xml" />
         <option value="$PROJECT_DIR$/sb-spring-security/sb-security-with-db/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-spring-security/sb-user-login/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-spring-security/spring-jpa-with-security/pom.xml" />
+        <option value="$PROJECT_DIR$/java-program/pom.xml" />
       </list>
     </option>
   </component>
