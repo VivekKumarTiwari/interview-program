@@ -15,12 +15,14 @@
         <module name="java-program" />
         <module name="spring-jpa-with-security" />
         <module name="sb-producer-without-docker-kafka" />
+        <module name="kafka-config-using-beans" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="in-memory-security" options="-parameters" />
+      <module name="kafka-config-using-beans" options="-parameters" />
       <module name="sb-produce-jsondata-on-kafka" options="-parameters" />
       <module name="sb-producer-without-docker-kafka" options="-parameters" />
       <module name="sb-secruity" options="-parameters" />
