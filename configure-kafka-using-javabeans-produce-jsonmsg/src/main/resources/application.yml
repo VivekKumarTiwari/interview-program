@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configure-kafka-using-javabeans-produce-jsonmsg
+
+server:
+  port: 9070
+
+kafka:
+  bootstrapServers: localhost:9092
+  topicName: jsontopic
+  partitions: 5
+  replicationFactors: 1

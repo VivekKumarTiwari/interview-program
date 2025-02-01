@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/sb-producer-without-docker-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/sb-produce-jsondata-on-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-config-using-beans/pom.xml" />
+        <option value="$PROJECT_DIR$/configure-kafka-using-javabeans-produce-jsonmsg/pom.xml" />
       </list>
     </option>
   </component>

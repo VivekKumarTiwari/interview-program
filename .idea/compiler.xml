@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sb-secruity" />
+        <module name="configure-kafka-using-javabeans-produce-jsonmsg" />
         <module name="in-memory-security" />
         <module name="sb-security-with-db" />
         <module name="sb-produce-jsondata-on-kafka" />
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configure-kafka-using-javabeans-produce-jsonmsg" options="-parameters" />
       <module name="in-memory-security" options="-parameters" />
       <module name="kafka-config-using-beans" options="-parameters" />
       <module name="sb-produce-jsondata-on-kafka" options="-parameters" />
