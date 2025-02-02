@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: consume-simple-msg-onkafka
+  kafka:
+    bootstrap-servers: localhost:9092
+    topicName: simplemsg
+    consumer:
+      group-id: simplemsggroupdId
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+server:
+  port: 9080

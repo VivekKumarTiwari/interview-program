@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/configure-kafka-using-javabeans-produce-jsonmsg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consume-simple-msg-onkafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-program/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-program/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-config-using-beans/src/main/java" charset="UTF-8" />
