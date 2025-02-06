@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sb-consumer-reads-jsondata
+  kafka:
+    topicName: jsondatatopic
+    consumer:
+      group-id: json-data-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: '*'
+        spring.json.value.default.type: com.json.consumer.kafka.dto.UserDto

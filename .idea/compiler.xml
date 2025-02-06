@@ -13,6 +13,7 @@
         <module name="in-memory-security" />
         <module name="sb-security-with-db" />
         <module name="sb-produce-jsondata-on-kafka" />
+        <module name="sb-consumer-reads-jsondata" />
         <module name="java-program" />
         <module name="spring-jpa-with-security" />
         <module name="sb-producer-without-docker-kafka" />
@@ -27,6 +28,7 @@
       <module name="consume-simple-msg-onkafka" options="-parameters" />
       <module name="in-memory-security" options="-parameters" />
       <module name="kafka-config-using-beans" options="-parameters" />
+      <module name="sb-consumer-reads-jsondata" options="-parameters" />
       <module name="sb-produce-jsondata-on-kafka" options="-parameters" />
       <module name="sb-producer-without-docker-kafka" options="-parameters" />
       <module name="sb-secruity" options="-parameters" />
