@@ -1,0 +1,13 @@
+
+spring:
+  kafka:
+    consumer:
+      topic: testsimple
+      bootstrap-servers: localhost:9092
+      group-id: sb-msg-group
+     # key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+     # value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  application:
+    name: sb-read-simple-msg
+
+

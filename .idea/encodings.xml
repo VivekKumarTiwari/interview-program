@@ -10,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/sb-consumer-reads-jsondata/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-produce-jsondata-on-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-producer-without-docker-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sb-read-simple-msg/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/in-memory-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/sb-secruity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sb-spring-security/sb-security-with-db/src/main/java" charset="UTF-8" />

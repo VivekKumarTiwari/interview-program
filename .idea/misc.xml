@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/configure-kafka-using-javabeans-produce-jsonmsg/pom.xml" />
         <option value="$PROJECT_DIR$/consume-simple-msg-onkafka/pom.xml" />
         <option value="$PROJECT_DIR$/sb-consumer-reads-jsondata/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-read-simple-msg/pom.xml" />
       </list>
     </option>
   </component>
